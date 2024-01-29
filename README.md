@@ -14,19 +14,18 @@ Asegúrate de tener instalados los siguientes requisitos antes de ejecutar el pr
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/Hertuq0910/rabbitmq-demos.git
-   cd tuproyecto
+   - git clone https://github.com/Hertuq0910/rabbitmq-demos.git
+   - cd tuproyecto
    
 2. Instala dependencias:
 
-   go get -u github.com/schollz/progressbar/v3
-   go get -u github.com/streadway/amqp
+   - go get -u github.com/schollz/progressbar/v3
+   - go get -u github.com/streadway/amqp
 
 3. Ejecución:
 
-   go run producer.go
-   go run consumer.go (activa los consumidores que sean necesarios)
+   - go run producer.go
+   - go run consumer.go (activa los consumidores que sean necesarios)
 
->  Contribuciones
-¡Las contribuciones son bienvenidas! Si encuentras errores o mejoras posibles, por favor, abre un issue o envía un pull request.
+> ¡Las contribuciones son bienvenidas! Si encuentras errores o mejoras posibles, por favor, abre un issue o envía un pull request.
 
